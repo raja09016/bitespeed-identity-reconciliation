@@ -64,6 +64,9 @@ npm run test
 
 `POST /identify`
 
+**Live Deployed Railway API URL:**
+`https://bitespeed-identity-reconciliation-production-59e6.up.railway.app/identify`
+
 Accepts a JSON payload containing either `email`, `phoneNumber`, or both. 
 
 ### Examples
