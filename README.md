@@ -1,5 +1,8 @@
 # Bitespeed Identity Reconciliation Task
 
+**Live Deployed Railway API URL:**
+`https://bitespeed-identity-reconciliation-production-59e6.up.railway.app/identify`
+
 This is a Node.js + TypeScript web service for the Bitespeed Identity Reconciliation task. It implements an `/identify` endpoint that links and consolidates customer identities based on email and phone numbers across multiple purchases.
 
 ## Tech Stack
@@ -63,9 +66,6 @@ npm run test
 ## Endpoint Details
 
 `POST /identify`
-
-**Live Deployed Railway API URL:**
-`https://bitespeed-identity-reconciliation-production-59e6.up.railway.app/identify`
 
 Accepts a JSON payload containing either `email`, `phoneNumber`, or both. 
 
